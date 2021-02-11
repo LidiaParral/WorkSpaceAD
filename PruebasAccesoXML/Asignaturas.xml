@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Asignaturas>
+	<asignatura>
+		<codigo>AD</codigo>
+		<nombre>Acceso a datos</nombre>
+		<horas>6</horas>
+	</asignatura>
+	<asignatura>
+		<codigo>PMDM</codigo>
+		<nombre>Programación Multimedia y Dispositivos Móviles</nombre>
+		<horas>4</horas>
+	</asignatura>
+	<asignatura>
+		<codigo>SGE</codigo>
+		<nombre>Sistema de Gestión Empresarial</nombre>
+		<horas>3</horas>
+	</asignatura>
+</Asignaturas>

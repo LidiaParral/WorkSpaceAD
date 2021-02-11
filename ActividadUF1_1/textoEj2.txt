@@ -1,0 +1,2 @@
+Esto es el texto del fichero para probar el ejercicio 2
+Fin del texto del fichero

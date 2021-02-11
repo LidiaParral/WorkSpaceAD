@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Alumnos>
+    <alumno>
+        <num_exp>1234567</num_exp>
+        <nombre>Pepito</nombre>
+        <edad>20</edad>
+    </alumno>
+</Alumnos>
