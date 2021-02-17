@@ -25,6 +25,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="F:/ACCESO A DATOS/WorkSpaceAD/WorkSpaceAD/PrimerEjemploHibernateJPA/lib/h2-1.4.200.jar"/>
+	<classpathentry kind="lib" path="lib/h2-1.4.200.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

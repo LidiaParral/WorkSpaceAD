@@ -7,7 +7,7 @@
 			<property name="hibernate.ejb.cfgfile" value="hibernate.cfg.xml"/>
 			<property name="hibernate.dialect" value="org.hibernate.dialect.H2Dialect"/>
 			<property name="hibernate.connection.driver_class" value="org.h2.Driver"/>
-			<property name="hibernate.connection.url" value="jdbc:h2:D:\Escritorio\ACCESO A DATOS\WorkSpaceADT2\PrimerEjemploHibernateJPA\H2DB\Test"/>
+			<property name="hibernate.connection.url" value="jdbc:h2:F:\ACCESO A DATOS\WorkSpaceAD\PrimerEjemploHibernateJPA\H2DB\Test"/>
 			<property name="hibernate.default_schema" value="TEST"/>
 			<property name="hibernate.default_catalog" value="TEST"/>
 			<property name="hibernate.connection.username" value="sa"/>

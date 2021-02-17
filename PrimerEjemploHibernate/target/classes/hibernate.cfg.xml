@@ -2,9 +2,9 @@
 <!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
                                          "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
- <session-factory>
+ <session-factory name="">
   <property name="hibernate.connection.driver_class">org.h2.Driver</property>
-  <property name="hibernate.connection.url">jdbc:h2:D:\Escritorio\ACCESO A DATOS\WorkSpaceADT2\PrimerEjemploHibernateJPA\H2DB\Test;DB_CLOSE_ON_EXIT=TRUE;FILE_LOCK=NO</property>
+  <property name="hibernate.connection.url">jdbc:h2:F:\ACCESO A DATOS\WorkSpaceAD\PrimerEjemploHibernate\H2DB\Test;DB_CLOSE_ON_EXIT=TRUE;FILE_LOCK=NO</property>
   <property name="hibernate.connection.username">sa</property>
   <property name="hibernate.default_schema">Test</property>
   <property name="hibernate.dialect">org.hibernate.dialect.H2Dialect</property>
@@ -14,3 +14,4 @@
   <mapping class="com.dam.hibernate.PrimerEjemploHibernate.model.Persona"/>
  </session-factory>
 </hibernate-configuration>
+<!-- Añade un elemento de tipo mapping que hace referencia a la clase Persona -->

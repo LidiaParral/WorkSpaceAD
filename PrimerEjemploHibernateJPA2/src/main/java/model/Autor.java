@@ -85,4 +85,9 @@ public class Autor implements Serializable {
 		return libro;
 	}
 
+	public char[] mostrarLibros() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
