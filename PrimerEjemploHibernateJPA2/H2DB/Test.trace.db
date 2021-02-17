@@ -1,4 +1,0 @@
-2021-01-25 13:06:03 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "SELECT * FROM TEST.AUTOR TEST.[*]LIBRO"
-Syntax error in SQL statement "SELECT * FROM TEST.AUTOR TEST.[*]LIBRO"; SQL statement:
-SELECT * FROM TEST.AUTOR TEST.LIBRO [42000-200]

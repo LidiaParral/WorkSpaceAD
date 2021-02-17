@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 29-dic-2020 17:16:04 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="model.Libro" table="LIBRO">
+        <id name="id" type="long" >
+            <column name="ID" />
+            <generator class="assigned" />
+        </id>
+        <property name="anioPublic" type="short">
+            <column name="ANIO_PUBLIC" />
+        </property>
+        <property name="categoria" type="java.lang.String">
+            <column name="CATEGORIA" />
+        </property>
+        <property name="isbn" type="java.lang.String">
+            <column name="ISBN" />
+        </property>
+        <property name="titulo" type="java.lang.String">
+            <column name="TITULO" />
+        </property>
+        <many-to-one name="autor" class="model.Autor" fetch="join">
+            <column name="ID_AUTOR" />
+        </many-to-one>
+    </class>
+</hibernate-mapping>
